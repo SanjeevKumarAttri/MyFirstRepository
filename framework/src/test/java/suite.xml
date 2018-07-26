@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+    <listeners>
+    <listener class-name="com.accenture.utilities.MyListeners" ></listener>
+    </listeners>
+      <class name="pom.tests.LoginTest"/>
+    </classes>  
+  </test> <!-- Test -->
+    <test name="Test2">
+    <classes>
+    <listeners>
+    <listener class-name="com.accenture.utilities.MyListeners" ></listener>
+    </listeners>
+      <class name="pom.tests.RegistrationTest"/>
+    </classes>  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
